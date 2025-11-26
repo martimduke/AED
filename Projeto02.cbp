@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Projeto02" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Projeto02" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="biblioteca" />
+					<Add directory="programa02" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="biblioteca/Dicionario.h" />
+		<Unit filename="biblioteca/DicionarioVetor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Fila.h" />
+		<Unit filename="biblioteca/FilaLista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Info.h" />
+		<Unit filename="biblioteca/Int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Int.h" />
+		<Unit filename="biblioteca/Iterador.h" />
+		<Unit filename="biblioteca/IteradorVetor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Lista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Lista.h" />
+		<Unit filename="biblioteca/Par.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Par.h" />
+		<Unit filename="biblioteca/Pilha.h" />
+		<Unit filename="biblioteca/PilhaLista.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Sequencia.h" />
+		<Unit filename="biblioteca/SequenciaVetor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Str.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Str.h" />
+		<Unit filename="biblioteca/Util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Util.h" />
+		<Unit filename="biblioteca/Vetor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="biblioteca/Vetor.h" />
+		<Unit filename="programa02/Caixa.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Caixa.h" />
+		<Unit filename="programa02/Cliente.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Cliente.h" />
+		<Unit filename="programa02/Historico.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Historico.h" />
+		<Unit filename="programa02/MainSupermercado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Produto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Produto.h" />
+		<Unit filename="programa02/Stock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Stock.h" />
+		<Unit filename="programa02/Supermercado.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="programa02/Supermercado.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
